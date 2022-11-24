@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+    <meta charset="UTF-8">
+    <title>Ayuda</title>
+
+    <head>
+        <h1 style="background-color:lightblue; color:white; padding: 0%;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            Financiera versión 1.0
+        </h1>
+    </head>
+    
+    <body>
+
+        <ul style="background-color: lightblue;color:white; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#descrip">Descripción</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#menu">Menú - Ver</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#barra">Barra de navegación</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#ingreso">Ingresos</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#gasto">Gastos</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#ahorro">Ahorros</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#tarjeta">Tarjeta de crédito</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#prestamo">Prestamos</a></li>
+            <li style="display:inline; padding-left: 3px; padding-right: 3px;"><a href="#parametro">Configuración</a></li>
+        </ul>
+
+        <div id= "descrip" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Descripción</u>
+            </h2>
+            <img style="display:block;margin:0 auto 0 auto;" src= 'recursos/html/financiera.JPG'>
+            <p>La aplicación financiera permite al usuario tener un registro de su economía diaria. Para eso, podrá crear registros de tipo ingreso,
+               gastos, prestamos, ahorros. Asimismo, el usuario tendrá la opción de generar categorías diferentes para los ingresos y gastos que tenga. 
+               Lo que le permitirá tener una mayor visibilidad de su economía.  
+            </p>
+        </div>
+
+        <div id= "menu" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Menú - Ver</u>
+            </h2>
+            <div>
+                <h3 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                    <u>Ver</u>
+                </h3>
+                    <p>El menú "Ver" le permite al usuario acceder a la vista de los tipos de registro: Ahorro, Gasto tarjeta de crédito y préstamos.</p>
+                <div>
+                    <h4 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                        <u>Visualizar Ahorro</u>
+                    </h4>
+                    <img src= 'recursos/html/mn_vis_ahorro.JPG'>
+                    <p>Dentro del formulario "visualizar ahorros" se podrá acceder al listado de registros de tipo <strong>ahorro</strong> que se encuentren
+                       dentro de la base de datos. También, dentro del mismo, el usuario podrá eliminar los registros que desee.
+                       Sin embargo, si el usuario creo el registro, con la opción que descuente del dinero disponible. El gasto generado deberá de ser eliminado
+                       de forma manual.
+                    </p>
+                </div>
+            </div>
+                <h4 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                    <u>Visualizar Prestamo</u>
+                </h4>
+                <img src= 'recursos/html/mn_vis_prestamo.JPG'>
+                <p>El formulario "visualizar préstamo" le permite al usuario acceder a los diferentes prestamos creados. Para buscar los registros, se deberá
+                   de hacer click en el botón con una imagen de "lupa". Al hacerlo, se accederá a un submenú que trae un listado de los prestamos existentes.
+                </p>
+                <img src= 'recursos/html/bsq_prestamo.JPG'>
+                <p>Seleccionando el registro deseado, se podrá acceder a toda la información disponible sobre el mismo. Incluso, se
+                   podrá eliminar el registro con el botón con imagen de cesto de basura.
+                </p>
+            </div>
+
+            <div>
+                <h4 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                    <u>Gastos en tarjeta de crédito</u>
+                </h4>
+                <img src='recursos/html/mn_vis_tarjeta.JPG'>
+                <p> Al acceder a este formulario, se tendrá acceso a los diferentes registros creados de este tipo. Con el botón con 
+                    imagen de lupa, podremos seleccionar el gasto deseado.    
+                </p>
+                <img src= 'recursos/html/bsq_tarjeta.JPG'>
+                <p>Seleccionando el registro deseado, se podrá acceder a toda la información disponible sobre el mismo. Incluso, se
+                   podrá eliminar el registro con el botón con imagen de cesto de basura.
+                </p>
+            </div>
+
+        </div>
+        
+        <div id= "barra" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Barra de navegación</u>
+            </h2>
+            <img src= 'recursos/html/barra.JPG'>
+            <p>La primer sección de la barra de navegación, permite acceder de forma directa a los menús de:</p>
+                
+                <ul>
+                    <li>Ingresos</li>
+                    <li>Gastos</li>
+                    <li>Ahorros</li>
+                    <li>Tarjeta de crédito</li>
+                    <li>Prestamos / Créditos</li>
+                    <li>Estadisticas generales</li>
+                    <li>Crear parámetros</li>
+                </ul>
+            <p>La segunda sección, <strong>visualizar</strong>, nos da la opción de poder ver los datos filtrados por mes,
+               año u la totalidad de los mismos. 
+               Esta opción afecta a cada una de las pestañas disponibles.
+            </p>
+        </div>
+
+        <div id= "ingreso" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Ingresos</u>
+            </h2>
+            <img src= 'recursos/html/frm_ingreso.JPG'>
+            <p>En el formulario "ingreso" le permitirá mantener un registro al usuario de sus haberes, pudiéndolos clasificar por
+               tipo. El alta, requerirá de cuatro tipo de datos. El primero, el <i>tipo de ingreso</i>, permite catalogar el registro.
+               <i>Descripción</i>, como su nombre lo indica, permite añadir una explicación al registro. Tercero, el ítem <i>fecha</i>,
+               permite indicar la fecha en que se produjo el ingreso. El campo deberá tener el formato <strong>yyyy-mm-dd</strong>.
+               Finalmente, el campo <i>importe</i>, como su nombre lo indica, permitirá ingresar el valor del ingreso. Es registro
+               tomará como separador decimal el carácter <strong>"."</strong>.
+            </p>
+        </div>
+        
+        <div id= "gasto">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Gastos</u>
+            </h2>
+            <img src='recursos/html/frm_gasto.jpg'>
+            <p>Dentro de este formulario, el usuario podrá ingresar los gastos. Para ello, deberá de completar cuatro registros. 
+               El primero, es el campo <i>tipo de gasto</i>. Donde el usuario podrá clasificar el mismo. El segundo, <i>descripción</i>,
+               le permite agregarle un comentario u explicación al registro. <i>Fecha</i>, permite indicar cuando se realizó el gasto. Y, finalmente,
+               el campo <i>importe</i>, nos permite registrar el valor del gasto.<br>
+               Como en el formulario ingreso, el campo fecha, deberá de tener un formato yyyy-mm-dd. Para el campo importe, el separador decimal será
+               <strong>"."</strong>.
+            </p>
+        </div>
+                
+        <div id= "ahorro" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Ahorro</u>
+            </h2>
+            <img src= 'recursos/html/frm_ahorro.jpg'>
+            <p>Este formulario, nos permite llevar un registro sobre los ahorros, en diferentes tipos de divisas (pesos argentinos,
+               euros, y dólares). Para realizar el proceso de alta, deberemos de ir completando un conjunto de campos. El primero,
+               será el de <i>moneda</i>, en el cual, se tendrá que especificar el tipo de divisa del ahorro.<br>
+               Segundo, el campo importe se ingresará el valor del ahorro. Acto seguido, indicaremos si al crear el registro, generamos
+               automáticamente un registro de tipo gasto, por el monto del ahorro. Esto nos permite llevar un registro más preciso del
+               dinero disponible. Vale aclarar que, si la divisa elegida para el proceso de alta, es el dólar o euro, el registro gasto generado
+               será por el importe de la compra de la moneda. Para esto, antes, se debe de verificar la correcta parametrización de la moneda
+               extranjera.<br>
+               Luego, se deberá seleccionar si el ahorro genera tasa de interés, indicando, de ser verdadero, el porcentaje de la misma.<br>
+               Finalmente, se podrá indicar si tiene una fecha de vencimiento. De ser así, se ingresará la fecha de la misma, con el formato <strong>yyyy-mm-dd</strong>.
+               Si se especifica que el registro tiene una fecha de vencimiento, el programa verificara la fecha de vencimiento del registro cada vez que se ejecuta.
+               De ser menor la fecha de caducidad a la fecha actual del sistema, se creará un registro de tipo "ingreso" por el valor total del registro. 
+               Eliminando, también, al ahorro del sistema.<br>
+               <strong>Advertencia!</strong>Para poder utilizar el formulario de alta de ahorro, anteriormente, debe estar parametrizadas el valor de las divisas.
+            </p>
+        </div>
+
+        <div id= "tarjeta" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Gastos con tarjeta de crédito</u>
+            </h2>
+            <img src='recursos/html/frm_tarjeta.jpg'>
+            <p>El formulario "tarjeta de crédito", permite generar registros, de tipo gasto, pero con diferentes opciones. Para el proceso
+               de alta, primero deberemos registrar la fecha en que se realizó el consumo. Al igual que el formulario "gasto", deberemos especificar
+               el tipo y, luego, podremos ingresar una descripción del mismo. Luego, manteniendo la similaridad, el valor del consumo.<br>
+               Las opciones que le siguen, son la cantidad de cuotas en que se va a realizar el pago del gasto. Manteniendo un máximo de 30 cuotas. Y si
+               se aplica una tasa de interés, teniendo que especificar la misma.
+               Cuando clickeamos en el botón guardar, el sistema generara un registro de tipo "gasto" por la cantidad de cuotas indicadas.
+            </p>
+        </div>
+
+        <div id= "prestamo" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <h2 style="background-color:lightblue; color:white; padding: 0%;text-align: center;">
+                <u>Prestamos / Créditos</u>
+            </h2>
+            <img src='recursos/html/frm_prestamo.jpg'>
+            <p>Este formulario, permitirá realizar un alta de un préstamo. Para esto, se deberá especificar diferentes datos. Como la 
+               <i>fecha</i>, el <i>importe del crédito</i> y la cantidad de <i>cuotas</i> en que se deberá realizar el pago del mismo. Asimismo, 
+               se podrá especificar si el valor de las cuotas es un valor fijo o la tasa de interés del crédito.<br>
+               Al generar el préstamo, se crearán dos tipos de registro; uno de tipo ingreso, y otro de gasto. El primero, contendrá el importe por
+               el valor del crédito. En cambio, el de tipo ahorro, será uno por la cantidad de cuotas generadas. El cual contendrá el valor de la cuota
+               y la fecha de pago.
+            </p>
+        </div>
+        
+    </body>
+</html>
